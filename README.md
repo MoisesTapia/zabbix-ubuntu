@@ -67,3 +67,7 @@ php_value date.timezone Etc/UTC       <------ add
 
 Time Zone: Etc/UTC (UTC, +0000)
 ```
+## Restart services
+
+#### sudo service zabbix-server restart
+#### sudo service apache2 restart
