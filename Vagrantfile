@@ -21,4 +21,7 @@ Vagrant.configure("2") do |config|
     sudo service apache2 restart
     sudo systemctl enable zabbix-java-gateway
   SHELL
+  config.vm.provider "virtualbox" do |config|
+    config.name= "Zabbix-Academia"
+  end
 end
