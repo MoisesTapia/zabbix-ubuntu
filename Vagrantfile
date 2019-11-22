@@ -18,6 +18,7 @@ Vagrant.configure("2") do |config|
     sudo service zabbix-agent start
     sudo apt install zabbix-java-gateway -y
     sudo service zabbix-java-gateway restart
+    sudo service apache2 restart
     sudo systemctl enable zabbix-java-gateway
   SHELL
 end
