@@ -1,5 +1,8 @@
 # zabbix-ubuntu
 
+### Download the nest vagrant machine and setup with of configuration:
+https://app.vagrantup.com/Dart-Sec/boxes/zabbix-ubuntu18
+
 ### Config databases MySQL
 
 ```
